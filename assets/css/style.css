@@ -71,6 +71,7 @@ p {
     width: 100%;
     display: inline-block;
     margin-left: 20px;
+    position: relative;
 }
 
 .About-Me, .Software-Engineering-Portfolio, .Contact-Me {
