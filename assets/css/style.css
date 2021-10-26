@@ -67,7 +67,7 @@ p {
     margin-left: 20px;
 }
 
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+.About-Me, .Software-Engineering-Portfolio, .Contact-Me {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -76,7 +76,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+.About-Me img, .Software-Engineering-Portfolio img, .Contact-Me img {
     max-height: 200px;
 }
 
@@ -85,7 +85,7 @@ p {
     margin-right: 25px;
 }
 
-.online-reputation-management h2, .search-engine-optimization h2, .social-media-marketing h2 {
+.Software-Engineering-Portfolio h2, .About-Me h2, .Contact-Me h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
