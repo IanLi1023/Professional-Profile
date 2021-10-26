@@ -52,10 +52,10 @@ p {
 
 /* Large Image In The Middle Of The Page */
 .Main {
-    height: 100px;
+    height: 1000px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: "assets/images/FamilyPhoto.jpg";
+    margin-bottom: 50px;
+    background-image: url("../images/FamilyPhoto2.jpg");
     background-size: cover;
     background-position: center;
 }
