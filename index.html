@@ -9,7 +9,7 @@
 
 <body>
 
-<!--Navigation Bar information - Home, About, Portfolio, Contact Me-->
+    <!--Navigation Bar information - Home, About, Portfolio, Contact Me-->
 
     <section class="header">
         <h1>Ian Li</h1>
@@ -29,75 +29,91 @@
         </nav>
     </section>
 
-<!--Search About Me-->
+    <!--Search About Me-->
+    <main>
+        <div class="Main" title="Two People with two dogs"></div>
+        <section class="content">
+            <div id="About-Me" class="About-Me">
+                <img src="./assets/images/LindiandIan2.jpg" class="float-left" alt="Husband and Wife " />
+                <h2>About Me</h2>
+                <p>
+                    I am a talented, ambitious and hardworking individual, with broad skills and experience in sofware
+                    engineering, leading projects and education.
+                </p>
+                <br>
+                <p>
+                    Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well
+                    under pressure.
+                </p>
+                <br>
+                <p>
+                    A key strength is communication; building strong relationships with people in order to deliver the
+                    best results.
+                </p>
+            </div>
+        </section>
 
-    <div class="Main" title="Two People with two dogs"></div> 
-    <section class="content">
-        <div id="About-Me" class="About-Me">
-            <img src="./assets/images/LindiandIan2.jpg" class="float-left" alt="Husband and Wife "/>
-            <h2>About Me</h2>
-            <p>
-                I am a talented, ambitious and hardworking individual, with broad skills and experience in sofware engineering, leading projects and education.
-            </p>
-            <br>
-            <p>
-                Furthermore, I am adept at handling multiple tasks on a daily basis competently and at working well under pressure.
-            </p> 
-            <br>
-            <p>
-                A key strength is communication; building strong relationships with people in order to deliver the best results.
-            </p>   
-            
-        </div>
-
-<!--Software Engineering Portfolio-->
-        <div id="Software-Engineering-Portfolio" class="Software-Engineering-Portfolio">
-            <img src="./assets/images/software-engineering-code_resize_md.jpeg" class="float-right" alt="Computer with code"/>
-            <h2>Software Engineering Portfolio</h2>
+        <!--Software Engineering Portfolio-->
+        <div id="Software-Engineering-Portfolio" class="Software-Engineering-Portfolio flexbox">
+            <div class="logo-images">
+                <img src="./assets/images/htmllogo.png" alt="html logo" class="flex-image" />
+                <img src="./assets/images/vscode.png" alt="VS Code Logo" class="flex-image" />
+                <img src="./assets/images/software-engineering-code_resize_md.jpeg" class="float-right"
+                    alt="Computer with code" />
+            </div>
+            <div>
+                <h2>Software Engineering Portfolio</h2>
                 <ul>
                     <li>Knowledge of computer systems and technologies.</li>
                     <li>The ability to work both in a team and alone and to manage your own workload.</li>
-                    <li>The ability to communicate with clients, colleagues and management to explain complex issues clearly and concisely.</li>
+                    <li>The ability to communicate with clients, colleagues and management to explain complex issues
+                        clearly and concisely.</li>
                     <li>A meticulous and organised approach to work.</li>
-                    <li>
-                        <a href="assets/images/IanPhilipLiResume 8.3.21.pdf" target="_blank">Click Here For My Resume!</a>
-                    </li>
-                </ul> 
-                <img src="assets/images/vscode.png" alt="VS Code Logo">  
-                <img src="assets/images/htmllogo.png" alt="HTML Code Logo"> 
+                </ul>
+
+                <form action="assets/images/IanPhilipLiResume 8.3.21.pdf">
+                    <input type="submit" value="Click Here For My Resume" />
+            </div>
         </div>
 
-<!--Contact Me-->        
+        <!--Contact Me-->
         <div id="Contact-Me" class="Contact-Me">
-            <img src="./assets/images/Social-Media.jpeg" class="float-left" alt="Social Media Tiles"/>
+            <img src="./assets/images/Social-Media.jpeg" class="float-left" alt="Social Media Tiles" />
             <h2>Contact Me</h2>
             <p>
                 Have a general questions or would like to contact me?
-                <ul>
-                    <li>
-                        <a href="mailto:Ian.Li1023@gmail.com">Email Address</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/ian-li-724312215/" target="_blank">LinkedIn</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/IanLi12" target="_blank">Twitter</a>
-                    </li>
-            </ul>         
-        </p>
+            </p>
+            <ul class="mt-1">
+                <li>
+                    <a href="#" class="btn">Email Me</a>
+                </li>
+
+                <li>
+                    <a href="#" class="btn">LinkedIn</a>
+                </li>
+
+                <a href="#" class="btn">Twitter</a>
+            </ul>
+            <!-- <form action="mailto:Ian.Li1023@gmail.com">
+                <input type="submit" value="Email Me" />
+            </form>
+
+            <form action="https://www.linkedin.com/in/ian-li-724312215/">
+                <input type="submit" value="LinkedIn" />
+                   
+                <form action="https://twitter.com/IanLi12/">
+                    <input type="submit" value="Twitter" /> -->
+
         </div>
-    </div>
-    </section>
+    </main>
 
 
-
-<!--Footer - Made by and Copyright -->
+    <!--Footer - Made by and Copyright -->
     <footer class="footer">
         <h4>Made by Ian Li</h4>
         <p>
-        University of Denver Bootcamp
+            University of Denver Bootcamp
         </p>
-    </div>
     </footer>
 </body>
 
