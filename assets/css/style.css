@@ -21,10 +21,6 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
 .header nav {
     margin-right: 0px;
     float: right;
@@ -122,8 +118,10 @@ ul li {
 }
 
 .mt-1 {
+    display:flex;
     margin-top: 12px;
     padding-top: 12px;
+    justify-content: row;
 }
 
 /* Logo FlexBox */
@@ -158,27 +156,30 @@ ul li {
         flex-direction: row;
         height:auto;
         width:auto;
+        float:none;
+    }
+    .flex-image {
+        width: 162.5px;
+        height: auto;
+    }
+    .float-left {
+        float: none;
     }
 }
 
-@media (max-width: 800px) {
-    .flex-image {
-        width: 162.5px;
-        height: 100px;
-    }
-}
 
 @media (max-width: 800px) {
     .float-right {
-        width: 40%;
-        height: 40%;
+        width: 38%;
+        height: 38%;
+        float: none;
     }
-
+}
 @media (max-width: 800px) {
     .About-Me, .Software-Engineering-Portfolio, .Contact-Me {
         color:yellow;   
     }
-
+}
 @media (max-width: 800px) {
     p {
         flex-wrap: nowrap;
@@ -200,18 +201,24 @@ ul li {
     }
 }
 
-@media (max-width: 700px) {
-    .btn .Contact-Me {
-        display: flex; 
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-    }
-}
-
 @media (max-width: 800px) {
     .Main {
         color: yellow;
     }
 }
-
+@media (max-width: 800px) {
+    .btn {
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 200px;
+    }
+}
+@media (max-width: 800px) {
+    .mt-1 {
+        display:flex;
+        margin-top: 12px;
+        padding-top: 12px;
+        flex-direction: column;
+    }
+}
