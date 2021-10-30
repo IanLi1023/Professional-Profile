@@ -116,7 +116,10 @@ ul li {
     padding: 12px;
     border-radius: 4px; 
 }
-
+.Showcase-Header {
+    float: center;
+}
+    
 .mt-1 {
     display:flex;
     margin-top: 12px;
@@ -130,12 +133,20 @@ ul li {
     flex-direction:row;
     float:right;
 }
-
+ 
 .flex-image {
     display:flex;
 }
 
+.Project-Showcase-img {
+    width: 600px;
+    height: 400px; 
+}
 
+.Mini-Projects-img {
+    width: 300px;
+    height: 150px;
+}
 /* Footer - Made by and Copyright */
 .footer {
     padding: 30px;
@@ -164,6 +175,10 @@ ul li {
     }
     .float-left {
         float: none;
+    }
+    .Project-Showcase-img {
+        width: 300px;
+        height: 200px; 
     }
 }
 
@@ -221,4 +236,12 @@ ul li {
         padding-top: 12px;
         flex-direction: column;
     }
+
+    .Project-Showcase {
+        display:flex;
+        flex-direction: row;
+        float: center;
+        width:500px;
+        height:auto; 
+}
 }
