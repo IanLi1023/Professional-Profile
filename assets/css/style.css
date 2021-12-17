@@ -10,6 +10,8 @@ body {
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: grey;
@@ -17,8 +19,13 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
+    display: flex;
     font-size: 48px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .header nav {
@@ -33,13 +40,20 @@ body {
 }
 
 .header nav ul li {
-    display: inline-block;
+    display: flex;
     margin-left: 25px;
+}
+
+.nav-bar-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+    justify-content: right;
 }
 
 a:hover,
@@ -66,28 +80,26 @@ p {
 /* Conent information */
 .content {
     width: 100%;
-    display: inline-block;
-    margin-left: 20px;
-    position: relative;
+    display: block;
 }
 
-.About-Me, .Software-Engineering-Portfolio, .Contact-Me {
-    margin-bottom: 20px;
+#About-Me, .Software-Engineering-Portfolio, .Contact-Me {
+    margin-bottom: 40px;
     padding: 50px;
-    min-height: auto;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #555657;
     color: #ffffff;
 }
 
-.About-Me img, .Software-Engineering-Portfolio img, .Contact-Me img {
+#About-Me img, .Software-Engineering-Portfolio img, .Contact-Me img {
     max-height: 200px;
 }
 
 .float-left {
     float: left;
     margin-right: 25px;
+    padding-bottom: 40px;  
 }
 
 .Software-Engineering-Portfolio h2, .About-Me h2, .Contact-Me h2 {
@@ -118,7 +130,7 @@ ul li {
 }
 
 .center {
-  display:flex;
+  display: flex;
   justify-content: center;
   width: 60%;
   margin-left: auto;
@@ -126,7 +138,7 @@ ul li {
     }
     
 .mt-1 {
-    display:flex;
+    display: flex;
     margin-top: 12px;
     padding-top: 12px;
     justify-content: row;
@@ -230,7 +242,7 @@ ul li {
         width: 200px;
     }
     .mt-1 {
-        display:flex;
+        display: flex;
         margin-top: 12px;
         padding-top: 12px;
         flex-direction: column;
