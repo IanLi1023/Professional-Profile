@@ -2,7 +2,9 @@
 
 # Description
 
-This portfolio of work showcase my skills and talents to employers. This portfolio highlights your strongest work as well as the thought processes behind it. 
+This portfolio of work showcases my skills and talents to employers. This portfolio highlights my strongest work as well as the thought processes behind it.
+
+
 
 ## User Story
 
