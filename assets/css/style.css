@@ -93,7 +93,7 @@ p {
 }
 
 #About-Me img, .Software-Engineering-Portfolio img, .Contact-Me img {
-    max-height: 200px;
+    max-height: 250px;
 }
 
 .float-left {
@@ -193,6 +193,9 @@ ul li {
         width:auto;
         float:none;
     }
+    .nav-bar-info {
+        display: inline;
+    }
     .flex-image {
         width: 162.5px;
         height: auto;
@@ -217,8 +220,12 @@ ul li {
         height: 38%;
         float: none;
     }
-    .About-Me, .Software-Engineering-Portfolio, .Contact-Me {
-        color:yellow;   
+    .float-left {
+        display: flex;
+        justify-content: center;  
+    }
+    #About-Me, .Software-Engineering-Portfolio, .Contact-Me {
+        color:yellow; 
     }
     p {
         flex-wrap: nowrap;
